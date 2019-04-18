@@ -1,0 +1,273 @@
+body{
+  background-color: #edffb2;
+}
+.heading{
+  height: 30px;
+}
+.buzz{
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+
+}
+
+.navigation{
+  height: 100px;
+}
+.navigation header p{
+  text-align: right;
+
+}
+.navigation header p a{
+  color: black;
+  border:1px solid grey;
+  padding: 3px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.navigation header p a:hover{
+  background-color: grey;
+
+}
+header > a > img,.logo{
+  width: 60px;
+  opacity: 1;
+}
+nav{
+  float: right;
+}
+nav ul{
+  list-style-type: none;
+}
+nav ul li{
+  display: inline;
+  padding-right:3px;
+}
+nav ul li a{
+  text-decoration: none;
+  font-family: 'Michroma', sans-serif;
+  color: grey;
+  padding: 10px;
+}
+nav ul li a:hover{
+  color: black;
+}
+video{
+  float: left;
+  margin-top: -20px;
+}
+.form{
+  margin-top: 50px;
+  border-left: 1px solid grey;
+  margin-left: 52%;
+  border-top: 1px solid grey;
+
+  }
+
+
+    .about-us h1{
+      text-align: center;
+      font-family: 'Major Mono Display', monospace;
+      margin-top: 40px;
+    }
+    .h3{
+      text-align: center;
+    }
+    .handshake{
+      height: 250px;
+      
+      margin-left: 100px;
+      border: 1px hidden;
+      border-radius: 25px;
+    }
+    .one{ 
+      clear: right;
+      width: 60%;
+      border: hidden;
+      margin-left: 30%;
+      margin-bottom: 10%;
+      font-family:'Patrick Hand', cursive;;
+      font-size: 20px;
+    }
+    @keyframes slide{
+   0% { transform: translateY(7%);}
+   50%{ transform: translateY(0%);}
+   100%{ transform: translateY(7%);}
+    }
+    #a{
+      width: 280px;
+    }
+    #a,#b,#c,#d{
+      margin-left: 40px;
+     position: relative;
+     animation-name: slide;
+     animation-duration: 6s;
+     animation-iteration-count: infinite;
+     animation-fill-mode: none;
+     animation-direction: normal;
+     animation-play-state: running;
+    animation-timing-function: ease-in-out;
+     }
+
+
+     #b{
+       animation-duration: 5s;
+     }
+     #d{
+       animation-duration: 4s;
+     }
+     .feedback{
+       margin-top: 30px;
+       margin-left: 30px;
+     }
+     #position{
+       margin-top: 40px;
+       margin-left: 40px;
+       padding: 20px;
+       padding-left: 60px;
+       text-transform: uppercase;
+       font-family: 'Black Ops One', cursive;
+       font-size: 30px;
+       border-top: 2px solid grey;
+     }
+     #value{
+       padding-left: 30px;
+
+     }
+
+
+     form{
+       margin: 20px;
+     }
+     input{
+       display: block;
+       margin: 20px;
+       height: 30px;
+       width: 300px;
+     }
+     #comment{
+       height: 150px;
+       width: 500px;
+
+     }
+  .media ul{
+    list-style-type: none;
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+    }
+    .media ul li a{
+      color: black;
+    }
+    .media ul li a:hover{
+      color: blue;
+    }
+  .media ul li a i{
+    height: 30px;
+
+  }
+  footer{
+    height: 210px;
+    border: hidden;
+    background-color: grey;
+  }
+  #info{
+    padding-top: 10px;
+    margin-left: 55px;
+  }
+  .contacts ul{
+    list-style-type: none;
+
+  }
+  .contacts ul li{
+    margin: 15px;
+  }
+
+  .copyright{
+    text-align: center;
+    padding-top: 35px;
+
+  }
+  .image1{
+    height: 300px;
+    float: left;
+    margin-left: 80px;
+    border: 1px hidden;
+    border-radius: 60%;
+    margin-top: -20px;
+
+
+  }
+  #message{
+    margin-left: 55%;
+    font-style: italic;
+    margin-top: 120px;
+
+  }
+  #motivation{
+    margin-left: 45%;
+    font-family: 'Special Elite', cursive;
+    font-style: normal;
+    font-size: 25px;
+
+  }
+  .start{
+    border-bottom: 2px solid #9995f9;
+    margin-top: 20%;
+    text-align: center;
+    font-family: 'Julius Sans One', cursive;
+  }
+  .partner{
+    border: hidden;
+    margin-top: 100px;
+    padding: 20px;
+  }
+  .partner #2{
+    margin: 10px;
+  }
+  .hiring{
+  background-image: url("https://i.pinimg.com/564x/6a/c0/80/6ac080d7c6dfc9012d34decd1e097986.jpg");
+  background-repeat: no repeat;
+  background-size: cover;
+  }
+  .company{
+    margin-left: 30%;
+
+  }
+  #button{
+    width: 60px;
+  }
+  .fields{
+    margin-left: 31%;
+    font-style: italic;
+    font-weight: bold;
+  }
+  .today{
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    padding-top: -10px;
+    color: #2924b5;
+    font-size: 60px;
+  }
+  .talent{
+    width: 20%;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 30px;
+    padding-left: 50px;
+    color: ##050505;
+  }
+  #word{
+    font-family: 'Patrick Hand', cursive;
+    width: 30%;
+    padding-left: 60%;
+    padding-top: 20px;
+    color: #ed10b9;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .thank{
+    width: 50%;
+    font-family: 'Lalezar', cursive;
+    padding-left: 20%;
+  }
+
+  
